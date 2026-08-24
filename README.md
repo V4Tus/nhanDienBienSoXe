@@ -1,6 +1,6 @@
-##Nhận diện biển số xe Việt Nam
+## Nhận diện biển số xe Việt Nam
 
-#Dự án nhận diện biển số xe từ video bằng hai mô hình tự huấn luyện:
+# Dự án nhận diện biển số xe từ video bằng hai mô hình tự huấn luyện:
 
 1.biensoxe.pt: mô hình YOLO phát hiện vị trí biển số.
 
@@ -8,9 +8,7 @@
 
 Hệ thống sử dụng ByteTrack để theo dõi biển số qua nhiều khung hình, crop vùng biển số, tổng hợp kết quả OCR và hiển thị kết quả lên video.
 
-Phiên bản hiện tại chỉ xử lý file video, không sử dụng camera realtime.
-
-#Chức năng
+# Chức năng
 
 - Phát hiện biển số trong video.
 
@@ -22,7 +20,7 @@ Phiên bản hiện tại chỉ xử lý file video, không sử dụng camera r
 
 - Lưu ảnh crop và thông tin biển số vào SQLite.
 
-#Cấu trúc
+# Cấu trúc
 
 ├── main.py
 ├── ocr_crnn.py
@@ -31,9 +29,9 @@ Phiên bản hiện tại chỉ xử lý file video, không sử dụng camera r
 ├── bienso.db
 └── PICTURE/
 
-#Công nghệ
+#C ông nghệ
 
 Python, OpenCV, PyTorch, Ultralytics YOLO, CRNN, ByteTrack và SQLite.
 
-#Tác giả
+# Tác giả
 V4Tus
